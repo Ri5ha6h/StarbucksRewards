@@ -37,7 +37,7 @@ function Pay() {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-1 lg:max-w-1/2">
+              <div className="flex flex-1 mt-5 lg:max-w-1/2 sm:mt-0">
                 <div className="flex-shrink-0">
                   <img
                     className="w-28 h-39.5"
@@ -79,7 +79,7 @@ function Pay() {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-1 lg:max-w-1/2">
+              <div className="flex flex-1 mt-5 lg:max-w-1/2 sm:mt-0">
                 <div className="flex-shrink-0">
                   <img className="w-28 h-39.5" src={payD} alt="gift card" />
                 </div>
@@ -119,7 +119,7 @@ function Pay() {
                     when you pay with that preloaded Starbucks Card.
                   </p>
                 </div>
-                {/* <div className="flex flex-1 max-w-xl"></div> */}
+                
               </div>
             </div>
           </div>
