@@ -7,7 +7,7 @@ function Header() {
         Starbucks® Rewards
       </h2>
 
-      <ButtonLinks className="flex-shrink-0 border-white text-white  md:hidden">Join in the app</ButtonLinks>
+      <ButtonLinks className="flex-shrink-0 text-white border-white md:hidden">Join in the app</ButtonLinks>
     </div>
   );
 }

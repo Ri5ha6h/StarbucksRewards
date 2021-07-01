@@ -4,7 +4,7 @@ import SimpleLinks from './Subcomponents/SimpleLinks';
 function Hero() {
   return (
     
-      <section className="aspect-w-3 aspect-h-4 md:aspect-h-2 md:aspect-w-5">
+      <section className="z-0 aspect-w-3 aspect-h-4 md:aspect-h-2 md:aspect-w-5">
         <div className="pt-5 text-center bg-cover md:text-left bg-ig-hero md:bg-ig-hero-desk md:bg-primary-100 md:py-12 md:px-4 lg:py-20 xl:py-32">
           <h1 className="text-2xl font-semibold uppercase lg:text-4xl">
             Free Coffee

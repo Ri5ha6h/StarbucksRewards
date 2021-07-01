@@ -1,9 +1,10 @@
+import Header from './Header'
 import ButtonLinks from './Subcomponents/ButtonLinks';
 
 function Nav() {
   return (
-    <>
-      <nav className="flex items-center justify-between w-full h-24 px-2 mx-auto bg-white max-w-7xl sm:px-6 lg:px-8 2xl:max-w-full">
+    <div className="relative md:sticky md:top-0 md:z-10">
+      <nav className="flex items-center justify-between h-24 px-2 mx-auto bg-white sm:px-6 lg:px-8 xl:px-12">
         <div className="flex w-12 h-12">
           <svg
             className="block"
@@ -96,8 +97,10 @@ function Nav() {
             <span className="sr-only">Open main menu</span>
           </div>
         </div>
+        
       </nav>
-    </>
+      <Header />
+    </div>
   );
 }
 
