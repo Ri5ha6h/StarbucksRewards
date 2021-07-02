@@ -1,5 +1,5 @@
 import Nav from './components/Nav';
-
+import Header from './components/Header';
 import Hero from './components/Hero';
 import Starting from './components/Starting';
 import Favorite from './components/Favorite';
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className=" font-star">
       <Nav />
-      
+      <Header />
       <Hero />
       <Starting />
       <Favorite />
